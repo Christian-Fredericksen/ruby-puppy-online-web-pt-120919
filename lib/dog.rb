@@ -38,7 +38,7 @@ end
 
 
 def save
-    @@name << self
+    @@all << self
   end
 
 
