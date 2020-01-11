@@ -35,14 +35,14 @@ class Dog
     puts dog_births
   end
   
-  
+  def save
+    @@all << self
+  end
   
 end
 
 
-def save
-    @@name << self
-  end
+
 
 
 
