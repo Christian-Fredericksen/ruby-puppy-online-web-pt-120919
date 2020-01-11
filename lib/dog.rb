@@ -1,7 +1,5 @@
 # Add your code here
-def save
-    @@all << self
-  end
+
 class Dog
   
   @@all = []
@@ -39,9 +37,9 @@ class Dog
 end
 
 
-# def save
-#     @@all << self
-#   end
+def save
+    @@all << self
+  end
 
 
 
